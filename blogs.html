@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>Blogs - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="blogs-page">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a class="active" href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="">
+      <h1>Blogs</h1>
+      <div class="sect1">
+<h2 id="_community_blog_feed_most_recent_posts">Community Blog Feed: Most Recent Posts</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_kie_log4j2_exploit_cve_2021_44228"><a href="https://blog.kie.org/2021/12/kie-log4j2-exploit-cve-2021-44228.html">KIE &amp; Log4j2 exploit CVE-2021-44228</a></h3>
+<p class='byline'>13 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="Mario Fusco" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By Mario Fusco</span>
+    </div>
+<p>2.x is a widely used Java logging framework. Unfortunately a few days ago it has been exposed to an important (“Log4Shell”, CVE-2021-44228).  The whole KIE ecosystem (Kogito, Drools, OptaPlanner and jBPM) moved to , a different logging facade with L&hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_how_to_handle_cve_2021_44228_in_java_applications"><a href="http://www.mastertheboss.com/jbossas/jboss-log/how-to-handle-cve-2021-44228-in-java-applications/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-to-handle-cve-2021-44228-in-java-applications">How to handle CVE-2021-44228 in Java applications</a></h3>
+<p class='byline'>13 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="F.Marchioni" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By F.Marchioni</span>
+    </div>
+<p>This short articles discussed the recent flaw in Log4j2 library which affects some recent versions of this opensource library. Let’s see how to perform checks and mitigation actions if your Java applications are using a flawed Log4j2 version. As dis&hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_infinispan_and_log4j_cve_2021_44228"><a href="https://infinispan.org/blog/2021/12/13/infinispan-log4j-cve-releases">Infinispan and Log4j CVE-2021-44228</a></h3>
+<p class='byline'>13 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="Tristan Tarrant" pfe-src="https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By Tristan Tarrant</span>
+    </div>
+<p>Dear Infinispan community, We’ve just released , and to address the . Additionally, we have released upgraded versions of the Infinispan Operator to match the server versions: 2.2.2.Final for Infinispan 13.0 and 2.1.6.Final for Infinispan 12.1. Plea&hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_eclipse_vert_x_and_log4j_2_cve_2021_44228"><a href="https://vertx.io/blog/CVE-2021-44228">Eclipse Vert.x and Log4j 2 CVE-2021-44228</a></h3>
+<p class='byline'>13 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="Julien Viet" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By Julien Viet</span>
+    </div>
+<p>A recent [CVE-2021-44228](<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228" class="bare">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228</a>) has been disclosed that affects the Log4j 2 library. The Vert.x project can <strong>optionally</strong> use this library for logging but <strong>does not ship</strong> this library and there&hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_using_resteasy_tracing_feature_with_feature_pack_in_wildfly"><a href="https://resteasy.github.io/2021/12/13/tracing-feature/">Using RESTEasy Tracing Feature With Feature Pack In WildFly</a></h3>
+<p class='byline'>13 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="Resteasy" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By Resteasy</span>
+    </div>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_wildfly_impact_of_the_apache_log4j_security_vulnerabilities"><a href="https://wildfly.org//news/2021/12/13/Log4j-CVEs/">WildFly Impact of the Apache Log4j Security Vulnerabilities</a></h3>
+<p class='byline'>13 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="Brian Stansberry" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By Brian Stansberry</span>
+    </div>
+<p>WildFly users are of course interested in the impact of the recently disclosed security vulnerabilities related to Apache Log4j. On Friday the @WildFlyAS Twitter account . In this post I want to provide further details, information on how users who &hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_keycloak_15_1_0_released"><a href="https://www.keycloak.org/2021/12/keycloak-1510-released">Keycloak 15.1.0 released</a></h3>
+<p class='byline'>10 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="Keycloak Blog" pfe-src="https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By Keycloak Blog</span>
+    </div>
+<p>To download the release go to . HIGHLIGHTS QUARKUS DISTRIBUTION PREVIEW Without comparison the biggest highlight of this release is all the improvements that have been made to the Quarkus distribution. So many in fact, that it will be hard to list t&hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_quarkus_2_5_2_final_released_maintenance_release"><a href="https://quarkus.io/blog/quarkus-2-5-2-final-released/">Quarkus 2.5.2.Final released - Maintenance release</a></h3>
+<p class='byline'>10 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="Guillaume Smet" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By Guillaume Smet</span>
+    </div>
+<p>We just released Quarkus 2.5.2.Final, a maintenance release for our 2.5 release train containing bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.5. If you are not using 2.5 already, please refer to the 2.5 mi&hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_dmn_example_application_with_quarkus"><a href="http://www.mastertheboss.com/bpm/kogito/dmn-example-application-with-quarkus/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dmn-example-application-with-quarkus">DMN example application with Quarkus</a></h3>
+<p class='byline'>9 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="F.Marchioni" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By F.Marchioni</span>
+    </div>
+<p>In our first tutorial about DMN – Getting started with Decision Models (DMN) – we have covered the foundation of Decision Models and the key components in it. In this follow up article we will design and create an example application which exposes a&hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_smart_scroll_for_bpmndmn_editors"><a href="https://blog.kie.org/2021/12/smart-scroll-for-bpmn-admn-editors.html">Smart Scroll for BPMN/DMN Editors</a></h3>
+<p class='byline'>9 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="Wagner Lemos" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By Wagner Lemos</span>
+    </div>
+<p>INTRODUCING SMART SCROLL Creating and managing BPMN/DMN resources can be a daunting task. Projects can come in many shapes and sizes and with varying levels of complexity. Consequently, being able to locate and identify nodes is of utmost importance&hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_getting_started_with_decision_models_dmn"><a href="http://www.mastertheboss.com/uncategorised/getting-started-with-decision-models-dmn/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=getting-started-with-decision-models-dmn">Getting started with Decision Models (DMN)</a></h3>
+<p class='byline'>9 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="F.Marchioni" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By F.Marchioni</span>
+    </div>
+<p>The Decision Model and Notation (DMN™) is a modelling language notation created by OMG for the specification of business decisions and business rules. In this tutorial we will have an overview of what is DMN and which are the key constructs of this &hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_optaplanner_documentation_turns_over_a_new_leaf"><a href="https://blog.kie.org/2021/12/optaplanner-documentation-turns-over-a-new-leaf.html">OptaPlanner documentation turns over a new leaf</a></h3>
+<p class='byline'>7 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="rsynek" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By rsynek</span>
+    </div>
+<p>  For years, has been offering the documentation in two formats: single-page HTML and PDF. This now changes with the launch a new documentation website, built using . What’s so exciting about the new documentation? First and foremost, it loads insta&hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_configuring_podman_for_quarkus_dev_services_and_testcontainers_on_linux"><a href="https://quarkus.io/blog/quarkus-devservices-testcontainers-podman/">Configuring Podman for Quarkus Dev Services and Testcontainers on Linux</a></h3>
+<p class='byline'>6 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="Michal Jurč" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By Michal Jurč</span>
+    </div>
+<p>Podman is a daemonless container engine for developing, managing, and running Containers on Linux systems. Since the release of version 3, Podman allows the user to run a service emulating a Docker API provided on a Unix socket. This makes it possib&hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_quarkus_tools_for_intellij_1_9_0_released"><a href="https://quarkus.io/blog/intellij-quarkus-tools-1.9.0/">Quarkus Tools for IntelliJ 1.9.0 released!</a></h3>
+<p class='byline'>3 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="Jeff Maury" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By Jeff Maury</span>
+    </div>
+<p>We are very pleased to announce the 1.9.0 release of Quarkus Tools for IntelliJ. This release adds support for Quarkus streams in the new project/module Quarkus wizard and fixes compatibilities with just released IntelliJ 2021.3. Quarkus streams Whe&hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_resteasy_releases"><a href="https://resteasy.github.io/2021/12/02/resteasy-releases/">RESTEasy Releases</a></h3>
+<p class='byline'>2 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="Resteasy" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By Resteasy</span>
+    </div>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_automating_quarkus_with_gitlab"><a href="https://quarkus.io/blog/logicdrop-automating-quarkus-with-gitlab/">Automating Quarkus with GitLab</a></h3>
+<p class='byline'>2 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="KimJohn Quinn" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By KimJohn Quinn</span>
+    </div>
+<p>Logicdrop provides a business automation and data intelligence platform that enables enterprises to design their own solutions and run them in the cloud. We process millions of transactions a month across a global client-base and add significant val&hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_order_picking_optimization_in_warehouses_and_supermarkets_with_optaplanner"><a href="https://blog.kie.org/2021/12/order-picking-optimization-in-warehouses-and-supermarkets-with-optaplanner.html">Order picking optimization in warehouses and supermarkets with OptaPlanner</a></h3>
+<p class='byline'>2 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="wmedvede" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By wmedvede</span>
+    </div>
+<p>  During the pandemic year, we saw many stores and supermarkets adapt their business in several ways. Sometimes these changes occurred from day to day. For example, as a consequence of the sharp decrease in customer physical visits, online orders in&hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_this_week_in_jboss_2_december_2021"><a href="https://www.jboss.org/posts/weekly-2021-12-02.html">This Week in JBoss - 2 December 2021</a></h3>
+<p class='byline'>2 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="Francesco Marchioni" pfe-src="/img/people/francesco-marchioni.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By Francesco Marchioni</span>
+    </div>
+<p>THIS WEEK IN JBOSS - 2 DECEMBER 2021    Hello! Welcome to our first December JBoss Editorial featuring the most interesting news and updates from our community.     RELEASE ROUNDUP  Here are the releases from the JBoss Community for this edition:   &hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_website_refresh_and_github_discussions"><a href="https://quarkus.io/blog/website-and-discussions/">Website refresh and GitHub Discussions</a></h3>
+<p class='byline'>2 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="Max Rydahl Andersen" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By Max Rydahl Andersen</span>
+    </div>
+<p>Quarkus website got a refresh and we enabled GitHub discussions for community conversations. Website refresh We’ve refreshed the look’n’feel with more contrast on pages for better readability. Cleaned up navigation menu and made a no fuzz "Getting S&hellip;</p>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_wildfly_26_beta1_is_released"><a href="https://wildfly.org//news/2021/12/02/WildFly26-Beta-Released/">WildFly 26 Beta1 is released!</a></h3>
+<p class='byline'>2 December 2021</p>
+<div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="Darran Lofthouse" pfe-src="/img/people/default_usericon.png" class="PFElement" pfelement=""></pfe-avatar>
+        <span>By Darran Lofthouse</span>
+    </div>
+<p>I’m pleased to announce that the new WildFly and WildFly Preview 26.0.0.Beta1 releases are available for download at . For more information about the changes included in this release please consult the release notes, in the meantime the developers a&hellip;</p>
+<hr>
+<p><p class="end-of-results">- End of Results -</p></p>
+</div>
+</div>
+</div>
+      
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
